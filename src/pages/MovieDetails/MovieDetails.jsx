@@ -49,7 +49,7 @@ const MovieDetails = () => {
     }
 
     getMovies();
-  }, []);
+  }, [movieId]);
 
   return (
     <>
